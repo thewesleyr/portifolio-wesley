@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+*{
+  margin:0;
+  padding:0;
+}
+body{
+  background-color:#2589e9;
+}
+h1{
+  color:#111;
+  font-family: 'Caveat', cursive;
+  font-size:2.5rem;
+}
+ header{
+   font-family: 'Caveat', cursive;
+  height: 5rem;
+  width:1920;
+  background-image:linear-gradient(-120deg,#2589E9,#496F93,#50E825);
+  display:flex;
+   justify-content: space-around;
+   align-items:center;
+}
+.links ul{
+  list-style-type:none;
+  display:flex;
+  justify-content:space-around;
+  align-items: center;
+  gap:1.1rem;
+}
+ul a{
+  color:#111;
+  font-family: 'Montserrat', sans-serif;
+  font-size:0.9rem;
+  text-decoration:none;
+}
+.btn{
+  background-color:#E825C4;
+  padding:0.5rem;
+  border-radius:0.7rem;
+  transform:background-color;
+  box-shadow: 8px 5px 10px 0.5px;
+}
+.btn:hover{
+  background-color: #E89AC4;
+}
+footer{
+  height: 3rem;
+  width: 1920px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons{
+  margin-left: 500px;
+  display: flex;
+  gap: 15px;
+}
+#insta{
+  height: 35px;
+  width: 35px;
+}
+#face{
+  height: 35px;
+  width: 35px;
+}
+#whats{
+  height: 35px;
+  width: 35px;
+}
+.btn-redes{
+  background-color: #2589E9;
+  border: none;
+  margin-top: 650px;
+}
+  
+/* sessao sobre mim copiada do index.html*/
+.sobre-mim{
+      text-align: center;
+
+  }
+  
+  .sobre-mim .txt-sobre-mim #p01{
+  line-height: 1.8rem;
+  }
